@@ -1,4 +1,4 @@
-package org.example.Light;
+package org.example.basic.Light;
 
 public class Light {
     private int lightSpeedPerSec = 186000;
