@@ -41,7 +41,7 @@ public class Stack<T> {
             return list.removeLast();
         }
         return null;
-    }
+    }  
 
     public boolean addAll(Collection<? extends T> c) {
         return list.addAll(c);
