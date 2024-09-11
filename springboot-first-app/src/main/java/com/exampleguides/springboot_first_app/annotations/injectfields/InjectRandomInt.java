@@ -1,4 +1,4 @@
-package com.exampleguides.springboot_first_app.annotations;
+package com.exampleguides.springboot_first_app.annotations.injectfields;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

@@ -1,4 +1,4 @@
-package com.exampleguides.springboot_first_app.annotations;
+package com.exampleguides.springboot_first_app.annotations.injectfields;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

@@ -1,12 +1,14 @@
 package com.exampleguides.springboot_first_app.services;
 
-import com.exampleguides.springboot_first_app.annotations.InjectRandomInt;
-import com.exampleguides.springboot_first_app.annotations.Profiling;
+import com.exampleguides.springboot_first_app.annotations.deprecated.DeprecatedClass;
+import com.exampleguides.springboot_first_app.annotations.injectfields.InjectRandomInt;
+import com.exampleguides.springboot_first_app.annotations.profiling.Profiling;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Service;
 
 @Service
 @Profiling
+@DeprecatedClass(newImpl = ServantService.class)
 public class MyServiceImpl implements MyService {
 
     @InjectRandomInt(min = 2, max = 7)

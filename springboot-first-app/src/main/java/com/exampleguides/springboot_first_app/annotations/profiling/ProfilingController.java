@@ -1,4 +1,4 @@
-package com.exampleguides.springboot_first_app.annotations;
+package com.exampleguides.springboot_first_app.annotations.profiling;
 
 public class ProfilingController implements ProfilingControllerMBean {
     private boolean enabled = false;
